@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<script src="pigLatin1.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>Pig Latin</title>
+    </head>
+    <body>
+        <h1>Pig Latin Translator</h1>
+        <input type="text" id="userInput">
+        <p id="outPig"></p>
+        <button type="button" onclick="pigLatin()">Submit</button>
+
+        <p>For words beginning with a vowel, add "way" to the end.
+        </p>
+        <p>For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".</p>
+        <p>If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!</p>
+        <p>For words beginning with "y", treat "y" as a consonant.</p>
+
+    </body>
+</html>
